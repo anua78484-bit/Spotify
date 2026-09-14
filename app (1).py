@@ -35,7 +35,7 @@ st.markdown(
 # LOAD DATA
 # ============================================================
 
-FILE_PATH = "/content/spotify dataset final.xlsm"
+FILE_PATH = "spotify dataset final.xlsm"
 
 try:
     df = pd.read_excel(FILE_PATH)
